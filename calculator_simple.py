@@ -27,5 +27,14 @@ class calculator:
 
 cal=calculator()
 n=int(input("Enter 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division of the two numbers : "))
-
+if n==1:
+    print("Sum = " , cal.add(x,y))
+elif n==2:
+    print("Difference = " , cal.sub(x,y))
+elif n==3:
+    print("Product = " , cal.pro(x,y))
+elif n==4:
+    print("Division = " , cal.div(x,y))
+else:
+    print("Enter Correct option")
 input("Press ENTER to exit")
